@@ -1,0 +1,12 @@
+../Core/Src/main.c:76:6:DrawBuffer	4
+../Core/Src/main.c:89:6:FillScreen	3
+../Core/Src/main.c:97:6:EmptyScreen	3
+../Core/Src/main.c:107:6:check_mpu	1
+../Core/Src/main.c:115:6:MPU6050_Init	1
+../Core/Src/main.c:128:13:MPU6050_Read_Accel	1
+../Core/Src/main.c:141:6:TestAccel	4
+../Core/Src/main.c:166:5:main	1
+../Core/Src/main.c:219:6:SystemClock_Config	3
+../Core/Src/main.c:256:13:MX_I2C1_Init	2
+../Core/Src/main.c:290:13:MX_GPIO_Init	1
+../Core/Src/main.c:352:6:Error_Handler	1
