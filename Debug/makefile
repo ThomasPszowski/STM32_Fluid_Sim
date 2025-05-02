@@ -60,8 +60,8 @@ all: main-build
 main-build: STM32F103C6T6_Fluid_Sim.elf secondary-outputs
 
 # Tool invocations
-STM32F103C6T6_Fluid_Sim.elf STM32F103C6T6_Fluid_Sim.map: $(OBJS) $(USER_OBJS) C:\gitreps\STM32_Fluid_Sim\STM32F103C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "STM32F103C6T6_Fluid_Sim.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"C:\gitreps\STM32_Fluid_Sim\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F103C6T6_Fluid_Sim.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+STM32F103C6T6_Fluid_Sim.elf STM32F103C6T6_Fluid_Sim.map: $(OBJS) $(USER_OBJS) S:\GitHubReps\STM32_Fluid_Sim\STM32F103C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "STM32F103C6T6_Fluid_Sim.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m3 -T"S:\GitHubReps\STM32_Fluid_Sim\STM32F103C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="STM32F103C6T6_Fluid_Sim.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

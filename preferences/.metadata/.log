@@ -1,0 +1,200 @@
+!SESSION 2025-04-29 22:11:36.584 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  S:\GitHubReps\STM32_Fluid_Sim\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 S:\GitHubReps\STM32_Fluid_Sim\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:11:43.874
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:11:43.874
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\preferences\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:11:51.974
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:12:24.722
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:12:24.735
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:12:24.997
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:12:25.735
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:12:26.025
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+!SESSION 2025-04-29 22:14:51.168 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:14:55.095
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:14:55.095
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\preferences\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:15:02.630
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:15:13.624
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:15:13.633
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:15:13.845
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:15:14.510
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:15:14.757
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
+!SESSION 2025-04-29 22:27:54.130 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data S:\GitHubReps\STM32_Fluid_Sim\preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:27:57.936
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:27:57.936
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\preferences\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:28:05.607
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-04-29 22:28:11.526
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39 RUNNING
+	 at java.base/java.net.Inet6AddressImpl.getHostByAddr(Native Method)
+	 at java.base/java.net.InetAddress$PlatformResolver.lookupByAddress(InetAddress.java:1225)
+	 at java.base/java.net.InetAddress.getHostFromNameService(InetAddress.java:840)
+	 at java.base/java.net.InetAddress.getCanonicalHostName(InetAddress.java:812)
+	 at com.st.library.analyticscore.AnalyticsContext.checkSTUser(AnalyticsContext.java:972)
+	 at com.st.library.analyticscore.AnalyticsContext.initialize(AnalyticsContext.java:299)
+	 at com.st.library.analyticscore.AnalyticsContext.initialize(AnalyticsContext.java:282)
+	 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	 at com.st.library.dynamicproxy.AnalyticsInvocationHandler.invoke(AnalyticsInvocationHandler.java:78)
+	 at jdk.proxy9/jdk.proxy9.$Proxy57.initialize(Unknown Source)
+	 at com.st.library.analyticscore.AnalyticsAPI.initialize(AnalyticsAPI.java:157)
+	 at com.st.microxplorer.plugins.analytics.AnalyticsPlugin.<init>(AnalyticsPlugin.java:236)
+	 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	 at com.st.microxplorer.plugin.PluginManage.loadPluginJar(PluginManage.java:352)
+	 at com.st.microxplorer.plugin.PluginManage.PluginSearch(PluginManage.java:224)
+	 at com.st.microxplorer.plugin.PluginManage.PluginDiscovery(PluginManage.java:67)
+	 at com.st.microxplorer.maingui.MainPanel.initialization(MainPanel.java:329)
+	 at com.st.microxplorer.maingui.AppletMainFrameCubeIde.init(AppletMainFrameCubeIde.java:242)
+	 at com.st.stm32cube.common.mx.core.CubeMxInstance.<init>(CubeMxInstance.java:117)
+	 at com.st.stm32cube.common.mx.core.CubeMxInstance.getInstance(CubeMxInstance.java:91)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:25)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	 at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	 at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	 at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	 at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-04-29 22:28:01.682 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Framework arguments:  S:\GitHubReps\STM32_Fluid_Sim\.project
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 S:\GitHubReps\STM32_Fluid_Sim\.project
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:28:16.739
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:28:16.755
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\preferences\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:28:24.264
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-04-29 22:28:49.917
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.ui.internal.Workbench$39 RUNNING
+	 at java.base/java.lang.Class.initClassName(Native Method)
+	 at java.base/java.lang.Class.getName(Class.java:948)
+	 at java.base/java.lang.Class.getPackageName(Class.java:1167)
+	 at java.base/sun.invoke.util.VerifyAccess.isSamePackage(VerifyAccess.java:378)
+	 at java.base/sun.invoke.util.VerifyAccess.isClassAccessible(VerifyAccess.java:195)
+	 at java.base/java.lang.invoke.MethodHandles$Lookup.isClassAccessible(MethodHandles.java:3798)
+	 at java.base/java.lang.invoke.MethodHandles$Lookup.checkSymbolicClass(MethodHandles.java:3786)
+	 at java.base/java.lang.invoke.MethodHandles$Lookup.resolveOrFail(MethodHandles.java:3747)
+	 at java.base/java.lang.invoke.MethodHandles$Lookup.findConstructor(MethodHandles.java:2837)
+	 at java.base/java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:232)
+	 at java.base/java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341)
+	 at java.base/java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134)
+	 at java.base/java.lang.invoke.CallSite.makeSite(CallSite.java:316)
+	 at java.base/java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:274)
+	 at java.base/java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:264)
+	 at com.teamdev.jxbrowser.profile.internal.ProfileImpl.<init>(ProfileImpl.java:102)
+	 at com.teamdev.jxbrowser.profile.internal.ProfilesImpl.lambda$new$0(ProfilesImpl.java:41)
+	 at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	 at java.base/java.util.Collections$UnmodifiableCollection.forEach(Collections.java:1116)
+	 at com.teamdev.jxbrowser.profile.internal.ProfilesImpl.<init>(ProfilesImpl.java:40)
+	 at com.teamdev.jxbrowser.engine.internal.EngineImpl.<init>(EngineImpl.java:348)
+	 at com.teamdev.jxbrowser.engine.internal.EngineImpl.newInstance(EngineImpl.java:291)
+	 at com.teamdev.jxbrowser.engine.Engine.newInstance(Engine.java:163)
+	 at com.st.components.swing.JxBrowserEngine.initBrowser(JxBrowserEngine.java:155)
+	 at com.st.components.swing.JxBrowserEngine.<init>(JxBrowserEngine.java:61)
+	 at com.st.components.swing.JxBrowserEngine.getInstance(JxBrowserEngine.java:125)
+	 at com.st.microxplorer.plugins.userauth.WebApp.<init>(WebApp.java:165)
+	 at com.st.microxplorer.plugins.userauth.WebApp.getInstance(WebApp.java:773)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.getBrowserView(UserAuth.java:486)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.checkInfile(UserAuth.java:251)
+	 at com.st.microxplorer.plugins.userauth.UserAuth.activatePlugin(UserAuth.java:169)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthAdapter.<init>(UserAuthAdapter.java:29)
+	 at com.st.stm32cube.common.mx.userauth.UserAuthProvider.getUserAuthAdapter(UserAuthProvider.java:16)
+	 at com.st.stm32cube.common.ecosystemintegration.ui.core.MCUEcoSystemIntegrationUiHelper.getUserAuth(MCUEcoSystemIntegrationUiHelper.java:100)
+	 at com.st.stm32cube.ide.mcu.userauth.UserAuthStartup.earlyStartup(UserAuthStartup.java:32)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:79)
+	 at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:55)
+	 at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	 at org.eclipse.ui.internal.Workbench$39.run(Workbench.java:2733)
+	 at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-04-29 22:28:50.124 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:28:53.770
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:28:53.770
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\preferences\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:29:01.407
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:29:12.417
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:29:12.425
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:29:12.593
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:29:13.227
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:29:13.453
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates

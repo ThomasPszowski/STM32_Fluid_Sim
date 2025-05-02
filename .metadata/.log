@@ -1,0 +1,30 @@
+!SESSION 2025-04-29 22:12:40.975 -----------------------------------------------
+eclipse.buildId=Version 1.18.1
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_GB
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data S:\GitHubReps\STM32_Fluid_Sim
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-04-29 22:12:45.577
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-04-29 22:12:45.588
+!MESSAGE Log4j2 initialized with config file S:\GitHubReps\STM32_Fluid_Sim\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-04-29 22:12:52.749
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:13:04.056
+!MESSAGE [Info] Starting language server with binary lsp agent.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:13:04.064
+!MESSAGE [Info] Lsp agent started successfully.
+
+!ENTRY com.microsoft.copilot.eclipse 1 0 2025-04-29 22:13:04.284
+!MESSAGE [Info] No proxy data found
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:13:04.906
+!MESSAGE [Info]	[lsp] GitHub Copilot Language Server 1.290.0 initialized
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-29 22:13:05.128
+!MESSAGE [Info]	[certificates] Removed 11 expired certificates
