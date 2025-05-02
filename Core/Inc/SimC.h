@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define GRID_SIZE 8
-#define REPULSION_GRID_DIM 8
+#define REPULSION_GRID_DIM 10
 #define REPULSION_GRID_SIZE (REPULSION_GRID_DIM * REPULSION_GRID_DIM)
 #define PARTICLE_COUNT 30
 #define DT 0.1f
