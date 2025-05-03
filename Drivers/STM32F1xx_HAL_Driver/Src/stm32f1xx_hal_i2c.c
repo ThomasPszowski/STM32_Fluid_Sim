@@ -2680,47 +2680,50 @@ HAL_StatusTypeDef HAL_I2C_Mem_Write(I2C_HandleTypeDef *hi2c, uint16_t DevAddress
   * @param  Timeout Timeout duration
   * @retval HAL status
   */
+extern debug_info;
 HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress, uint16_t MemAddress, uint16_t MemAddSize, uint8_t *pData, uint16_t Size, uint32_t Timeout)
 {
+	debug_info = 601;
   __IO uint32_t count = 0U;
 
   /* Init tickstart for timeout management*/
   uint32_t tickstart = HAL_GetTick();
-
+  debug_info = 6011;
   /* Check the parameters */
   assert_param(IS_I2C_MEMADD_SIZE(MemAddSize));
-
+  debug_info = 6012;
   if (hi2c->State == HAL_I2C_STATE_READY)
   {
+	  debug_info = 6013;
     /* Wait until BUSY flag is reset */
     if (I2C_WaitOnFlagUntilTimeout(hi2c, I2C_FLAG_BUSY, SET, I2C_TIMEOUT_BUSY_FLAG, tickstart) != HAL_OK)
     {
       return HAL_BUSY;
     }
-
+    debug_info = 6014;
     /* Process Locked */
     __HAL_LOCK(hi2c);
-
+    debug_info = 6015;
     /* Check if the I2C is already enabled */
     if ((hi2c->Instance->CR1 & I2C_CR1_PE) != I2C_CR1_PE)
     {
       /* Enable I2C peripheral */
       __HAL_I2C_ENABLE(hi2c);
     }
-
+    debug_info = 6016;
     /* Disable Pos */
     CLEAR_BIT(hi2c->Instance->CR1, I2C_CR1_POS);
-
+    debug_info = 6017;
     hi2c->State     = HAL_I2C_STATE_BUSY_RX;
     hi2c->Mode      = HAL_I2C_MODE_MEM;
     hi2c->ErrorCode = HAL_I2C_ERROR_NONE;
-
+    debug_info = 6018;
     /* Prepare transfer parameters */
     hi2c->pBuffPtr    = pData;
     hi2c->XferCount   = Size;
     hi2c->XferSize    = hi2c->XferCount;
     hi2c->XferOptions = I2C_NO_OPTION_FRAME;
-
+    debug_info = 602;
     /* Send Slave Address and Memory Address */
     if (I2C_RequestMemoryRead(hi2c, DevAddress, MemAddress, MemAddSize, Timeout, tickstart) != HAL_OK)
     {
@@ -2778,7 +2781,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
       /* Clear ADDR flag */
       __HAL_I2C_CLEAR_ADDRFLAG(hi2c);
     }
-
+    debug_info = 603;
     while (hi2c->XferSize > 0U)
     {
       if (hi2c->XferSize <= 3U)
@@ -2889,7 +2892,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
             }
           }
           while (__HAL_I2C_GET_FLAG(hi2c, I2C_FLAG_BTF) == RESET);
-
+          debug_info = 604;
           /* Generate Stop */
           SET_BIT(hi2c->Instance->CR1, I2C_CR1_STOP);
 
@@ -2919,6 +2922,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
       }
       else
       {
+    	  debug_info = 605;
         /* Wait until RXNE flag is set */
         if (I2C_WaitOnRXNEFlagUntilTimeout(hi2c, Timeout, tickstart) != HAL_OK)
         {
@@ -2954,7 +2958,7 @@ HAL_StatusTypeDef HAL_I2C_Mem_Read(I2C_HandleTypeDef *hi2c, uint16_t DevAddress,
         }
       }
     }
-
+    debug_info = 606;
     hi2c->State = HAL_I2C_STATE_READY;
     hi2c->Mode = HAL_I2C_MODE_NONE;
 

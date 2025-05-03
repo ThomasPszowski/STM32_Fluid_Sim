@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #define GRID_SIZE 8
-#define REPULSION_GRID_DIM 10
+#define REPULSION_GRID_DIM 8
 #define REPULSION_GRID_SIZE (REPULSION_GRID_DIM * REPULSION_GRID_DIM)
 #define PARTICLE_COUNT 30
 #define DT 0.1f
@@ -37,6 +37,7 @@ char* get_out_string();
 void generate_output();
 void generate_output_external(int **out_buffer, int out_buffer_dim);
 void init_particles();
+void init_particles_middle();
 void clear_grid();
 void particle_to_grid();
 void apply_gravity();

@@ -97,6 +97,16 @@ void init_particles() {
     }
 }
 
+void init_particles_middle() {
+    for (int i = 0; i < PARTICLE_COUNT; i++) {
+        particles[i].pos.x = (float)rand() / RAND_MAX * GRID_SIZE / 3 + GRID_SIZE / 3;
+        particles[i].pos.y = (float)rand() / RAND_MAX * GRID_SIZE / 3 + GRID_SIZE / 3;
+        particles[i].vel.x = 0.0f;
+        particles[i].vel.y = 0.0f;
+    }
+}
+
+
 void clear_grid() {
     for (int y = 0; y < GRID_SIZE; y++)
         for (int x = 0; x < GRID_SIZE; x++) {
