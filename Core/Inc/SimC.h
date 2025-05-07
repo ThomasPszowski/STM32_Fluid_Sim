@@ -8,7 +8,7 @@
 #define PARTICLE_COUNT 30
 #define DT 0.1f
 #define GRAVITY_MAGNITUDE -1.0f
-#define OUT_BUFFER_DIM 8
+#define OUT_BUFFER_DIM 16
 #define out_string_len (OUT_BUFFER_DIM * OUT_BUFFER_DIM * 2 + OUT_BUFFER_DIM * 2 + 9)
 
 typedef struct {
