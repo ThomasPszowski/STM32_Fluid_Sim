@@ -1,7 +1,7 @@
 #ifndef MPU6050_H
 #define MPU6050_H
 
-#include "stm32f1xx_hal.h"  // dostosuj do swojego układu, jeśli trzeba
+#include "stm32f4xx_hal.h"  // dostosuj do swojego układu, jeśli trzeba
 
 #define MPU6050_I2C_ADDR     0x68 << 1  // <<1 bo HAL oczekuje 8-bitowego adresu
 

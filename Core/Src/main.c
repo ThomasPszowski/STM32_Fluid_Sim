@@ -230,26 +230,20 @@ int main(void)
   	HAL_Delay(10);
   	MPU6050_Init(&hi2c1);
 
-  	FillScreen();
+  	//FillScreen();
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   	while (1)
 	{
-		/*debug_info = 6;
+		debug_info = 6;
 		if (MPU6050_ReadData(&hi2c1, &mpu) == HAL_OK) {
 			  Vec2 gravity;
-			  gravity.x = -mpu.Accel_X;
-			  gravity.y = -mpu.Accel_Y;
+			  gravity.x = -mpu.Accel_Y;
+				gravity.y = mpu.Accel_Z;
 			  set_gravity_direction(gravity);
 		}
-		debug_info = 0;
-		Vec2 gravity;
-		gravity.x = -mpu.Accel_Y;
-		gravity.y = mpu.Accel_Z;
-		debug_info = 5;
-		set_gravity_direction(gravity);
 
 		debug_info = 1;
 		step_simulation();
@@ -257,7 +251,7 @@ int main(void)
 		generate_output();
 		debug_info = 3;
 		DrawBufferDim();
-		debug_info = 4;*/
+		debug_info = 4;
 
 	}
     /* USER CODE END WHILE */
